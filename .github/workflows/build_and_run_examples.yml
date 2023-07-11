@@ -3,7 +3,7 @@ name: Build and Run Examples
 on:
   schedule:
     - cron: '0 0 * * *' # Once per day at midnight
-  pull_request:
+  pull_request_target:
     types: [opened, reopened, synchronize]
 
 jobs:
